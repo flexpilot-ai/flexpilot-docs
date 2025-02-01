@@ -16,23 +16,6 @@ export default defineConfig({
     "An open-source, free, AI-native, privacy-first IDE, forked from VS Code, offering the flexibility to bring your own keys for the LLMs of your choice.",
   head: [
     [
-      "script",
-      {
-        async: "",
-        src: "https://www.googletagmanager.com/gtag/js?id=G-VXH6LXCQ53",
-      },
-    ],
-    [
-      "script",
-      {},
-      `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-VXH6LXCQ53');
-      `,
-    ],
-    [
       "meta",
       {
         property: "title",
