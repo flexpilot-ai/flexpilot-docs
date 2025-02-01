@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "postcss": "^8.5.1",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^4.0.0",
+    "vitepress": "^1.4.2"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "prepare": "husky",
+    "format": "prettier --write \"**/*.{ts,mts,cts,tsx,js,mjs,cjs,jsx,json,md}\""
+  },
+  "lint-staged": {
+    "*.{ts,mts,cts,tsx,js,mjs,cjs,jsx,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0"
+  }
+}
