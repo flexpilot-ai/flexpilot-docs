@@ -26,6 +26,12 @@ Before installing, ensure your system meets these requirements:
 
 ## Downloading the IDE
 
+::: warning Try It Instantly! 
+🚀 No installation needed - start using Flexpilot IDE right now in your browser!
+
+Click [here](https://ide.flexpilot.ai/?folder=web-fs://github/flexpilot-ai/flexpilot-ide/main) to try the IDE instantly online before installing it.
+:::
+
 Select your platform below to find the right download:
 
 ::: details Windows Installation Files {open}
