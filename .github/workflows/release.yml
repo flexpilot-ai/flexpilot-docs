@@ -34,5 +34,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .vitepress/dist --project-name="docs-flexpilot-ai"
+          command: pages deploy .vitepress/dist --project-name="flexpilot-website"
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
