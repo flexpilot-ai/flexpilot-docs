@@ -1,6 +1,6 @@
 <template>
   <video
-    v-if="isDark"
+    v-show="isDark"
     autoplay
     muted
     loop
@@ -10,7 +10,7 @@
     <source :src="withBase('../videos/' + props.dark)" type="video/webm" />
   </video>
   <video
-    v-else
+    v-show="!isDark"
     autoplay
     muted
     loop

@@ -37,7 +37,7 @@
     </div>
     <div class="mx-auto">
       <video
-        v-if="isDark"
+        v-show="isDark"
         autoplay
         muted
         loop
@@ -50,7 +50,7 @@
         />
       </video>
       <video
-        v-else
+        v-show="!isDark"
         autoplay
         muted
         loop

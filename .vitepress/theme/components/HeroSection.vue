@@ -89,7 +89,7 @@
 
     <div class="mt-14">
       <video
-        v-if="isDark"
+        v-show="isDark"
         autoplay
         muted
         loop
@@ -102,7 +102,7 @@
         />
       </video>
       <video
-        v-else
+        v-show="!isDark"
         autoplay
         muted
         loop
@@ -121,4 +121,5 @@
 <script setup>
 import { withBase, useData } from "vitepress";
 const { isDark } = useData();
+console.log("------", isDark, JSON.stringify(isDark.value));
 </script>

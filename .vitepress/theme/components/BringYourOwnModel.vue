@@ -90,7 +90,7 @@
       class="mt-12 w-full sm:w-7/12 lg:mt-0 flex align-middle justify-center items-center"
     >
       <video
-        v-if="isDark"
+        v-show="isDark"
         autoplay
         muted
         loop
@@ -103,7 +103,7 @@
         />
       </video>
       <video
-        v-else
+        v-show="!isDark"
         autoplay
         muted
         loop
