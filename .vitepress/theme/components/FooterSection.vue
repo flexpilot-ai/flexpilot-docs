@@ -21,7 +21,7 @@
           class="absolute transitiona-all duration-1000 opacity-30 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-sm group-hover:opacity-50 group-hover:-inset-1 group-hover:duration-200 animate-tilt"
         ></div>
         <a
-          href="https://ide.flexpilot.ai"
+          href="https://ide.flexpilot.ai/?folder=web-fs://github/flexpilot-ai/flexpilot-ide/main"
           target="_blank"
           rel="noopener"
           class="w-full sm:w-fit flex relative !bg-white dark:!bg-gray-900 !text-gray-700 dark:!text-gray-300 !border-gray-200 dark:!border-gray-800 hover:!bg-gray-50 hover:dark:!bg-slate-800 flex-row align-middle items-center justify-center gap-x-1 py-2 px-4 font-medium duration-150 border-[1.5px] rounded-lg"
@@ -70,7 +70,7 @@
       </a>
 
       <a
-        href="https://github.com/flexpilot-ai/flexpilot-ide"
+        href="https://flexpilot.ai/docs/getting-started.html#downloading-the-ide"
         target="_blank"
         rel="noopener"
         class="flex !bg-white dark:!bg-gray-900 !text-gray-700 dark:!text-gray-300 !border-gray-200 dark:!border-gray-800 hover:!bg-gray-50 hover:dark:!bg-slate-800 flex-row align-middle items-center justify-center gap-x-1 py-2 px-4 font-medium duration-150 border-[1.5px] rounded-lg"

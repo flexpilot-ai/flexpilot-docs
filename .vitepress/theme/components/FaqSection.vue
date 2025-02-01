@@ -10,7 +10,7 @@
         Answered all frequently asked questions, Still confused? Checkout our
         <a
           class="!underline !underline-offset-2 !cursor-pointer"
-          href="./introduction.html"
+          href="/docs/introduction.html"
           >docs</a
         >
         to get started for free.
