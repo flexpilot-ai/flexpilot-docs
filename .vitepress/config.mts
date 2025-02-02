@@ -154,6 +154,7 @@ export default defineConfig({
       { link: "/", text: "Home" },
       { link: "/docs/getting-started", text: "Get Started" },
       { link: "/docs/introduction", text: "Features" },
+      { link: "https://discord.gg/7vp859ja", text: "Discord" },
     ],
     logo: {
       dark: "/logos/logo-dark.svg",
