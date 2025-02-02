@@ -8,26 +8,26 @@
         class="flex gap-y-12 flex-wrap items-end align-bottom justify-center [&>*]:px-6"
       >
         <li class="flex-none">
-          <OpenAI class="h-8 w-fit mb-1 fill-black dark:fill-gray-300" />
+          <OpenAI class="h-8 w-28 mb-1 fill-black dark:fill-gray-300" />
         </li>
         <li class="flex-none">
-          <Mistral class="h-8 w-fit mb-1 fill-black dark:fill-gray-400" />
-        </li>
-
-        <li class="flex-none">
-          <Azure class="h-8 w-fit mb-1" />
+          <Mistral class="h-8 w-28 mb-1 fill-black dark:fill-gray-400" />
         </li>
 
         <li class="flex-none">
-          <Bedrock class="h-8 w-fit fill-black dark:fill-gray-300" />
+          <Azure class="h-8 w-28 mb-1" />
         </li>
 
         <li class="flex-none">
-          <Gemini class="h-8 w-fit mb-1" />
+          <Bedrock class="h-8 w-28 fill-black dark:fill-gray-300" />
         </li>
 
         <li class="flex-none">
-          <Claude class="h-7 w-fit mb-0.5 fill-black dark:fill-gray-300" />
+          <Gemini class="h-8 w-28 mb-1" />
+        </li>
+
+        <li class="flex-none">
+          <Claude class="h-7 w-28 mb-0.5 fill-black dark:fill-gray-300" />
         </li>
       </ul>
     </div>
