@@ -29,6 +29,20 @@ Use the following settings to configure an OpenAI-compatible API provider in Fle
 - For snappier completions, consider reducing `Debounce Wait` to 100ms.
 :::
 
+## Available Providers
+
+Below is a list of some popular OpenAI-compatible API providers and services that you can use with Flexpilot, with the help of OpenAI Compatible Completion Model Provider.
+
+> [!NOTE]
+> The following list is not exhaustive and may not include all available providers. Please refer to the provider's documentation for more details.
+
+- DeepSeek API
+- Ollama
+- Hugging Face
+- Replicate
+- Together AI
+- Fireworks AI
+
 ## Next Steps  
 
 Set up the API credentials obtained from this page's instructions in the Flexpilot IDE to enable AI-powered code completions. For detailed guidance, refer to the [Setup Guide](/docs/configuration/completions.md#setting-up-your-model).

@@ -25,9 +25,110 @@ Use the following settings to configure an OpenAI-compatible API provider in Fle
 :::
 
 ::: tip 💡 Pro Tips
+- Each provider may have specific endpoint URLs and authentication requirements
 - Use lower temperatures (0.1-0.3) for more deterministic code generation.
 - The default API URL works for most users; only change it if using a proxy.
 :::
+
+## Available Providers
+
+Below is a list of some popular OpenAI-compatible API providers and services that you can use with Flexpilot, with the help of OpenAI Compatible Chat Model Provider.
+
+> [!NOTE]
+> The following list is not exhaustive and may not include all available providers. Please refer to the provider's documentation for more details.
+
+### Major Cloud Providers
+- Cloudflare Workers AI
+- Together AI
+- Perplexity AI (pplx-api)
+- Anyscale Endpoints
+- Deepseek API
+- IBM Watsonx.ai
+- NVIDIA NIM
+- NVIDIA Triton Inference Server
+- Voyage AI
+- Jina AI
+- Aleph Alpha
+- Baseten
+- OpenRouter
+- Predibase
+- Galadriel API
+- FriendliAI
+- Deepgram Listen
+- LM Studio Cloud
+- Volcano Engine (Volcengine)
+- XAI API
+- GitHub Models
+- Petals Distributed
+- GooseAI
+- EleutherAI Cloud
+- LeewayHertz AI
+- bitcot Intelligence
+- BotsCrew API
+- Classic Informatics
+- HuggingFace Inference
+- Databricks Foundation Models
+- IBM Watson Code Assistant
+- SAP AI Core
+- Oracle Cloud AI
+- Alibaba PAI
+- Tencent TI-ONE
+- Baidu Qianfan
+- Yandex Toloka
+- Naver Clova
+- Kakao Brain
+- LG AI Research
+- Samsung SDS
+- Huawei Cloud Pangu
+- DeepMind API
+- Inflection AI
+- Adept API
+- Character.AI
+- AI21 Labs
+- Writer.com
+- Typeface AI
+- Jasper API
+- Copy.ai
+- ShortlyAI
+
+### Open Source Implementations
+- vLLM
+- FastChat
+- LocalAI
+- llama.cpp
+- mlc-llm
+- ExLlamaV2
+- Ollama
+- Text-Generation-WebUI
+- KoboldCpp
+- TabbyAPI
+- TensorRT-LLM
+- LM Studio
+- OpenLLM
+- RayLLM
+- GPT4All
+
+### Middleware Solutions
+- LiteLLM
+- BerriAI
+- AI Gateway
+- LangChain Serve
+- Javelin Proxy
+- Portkey Gateway
+- Marsha API Router
+- Unify AI
+- Kong AI Gateway
+
+### Enterprise Platforms
+- Salesforce Einstein
+- Atlassian Intelligence
+- SAP AI Core
+- Oracle Digital Assistant
+- ServiceNow Intelligence
+- Adobe Sensei
+- IBM Watsonx Code Assistant
+- DataRobot LLM Ops
+- Alteryx AI Platform
 
 ## Next Steps  
 
