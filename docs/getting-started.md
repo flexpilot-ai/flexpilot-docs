@@ -138,6 +138,28 @@ Example:
 https://ide.flexpilot.ai/?folder=web-fs://github/flexpilot-ai/flexpilot-ide/main
 ```
 
+## URL Quick Launch
+
+Transform any GitHub repository into an instant development environment by simply modifying the URL. Just change `github.com` to `githubide.com` in your browser's address bar to open that repository directly in FlexPilot IDE.
+
+::: tip Quick Access
+No need to remember complex URLs - just add "ide" to any GitHub URL you're browsing!
+:::
+
+Here's how it works:
+
+```
+Original: https://github.com/username/repository
+Modified: https://githubide.com/username/repository
+```
+
+Example:
+
+```
+Original: https://github.com/flexpilot-ai/flexpilot-ide
+Modified: https://githubide.com/flexpilot-ai/flexpilot-ide
+```
+
 ## GitHub Integration
 
 To unlock full access to Flexpilot IDE's features, sign in with your GitHub account. This will enable a personalized experience by utilizing your GitHub profile details, such as your profile picture and name, in chat interfaces and other features.

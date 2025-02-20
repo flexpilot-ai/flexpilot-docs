@@ -7,6 +7,7 @@ import FaqSection from "./components/FaqSection.vue";
 import FooterSection from "./components/FooterSection.vue";
 import TryInstantlyOnline from "./components/TryInstantlyOnline.vue";
 import LogoGrid from "./components/LogoGrid.vue";
+import GitHubLinkSupport from "./components/GitHubLinkSupport.vue";
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import LogoGrid from "./components/LogoGrid.vue";
     <BringYourOwnModel />
     <CopilotExtensionsSupport />
     <TryInstantlyOnline />
+    <GitHubLinkSupport />
     <FaqSection />
     <FooterSection />
   </div>
